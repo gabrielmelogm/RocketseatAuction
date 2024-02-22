@@ -1,7 +1,6 @@
 using RocketseatAuction.API.Communication.Requests;
 using RocketseatAuction.API.Contracts;
 using RocketseatAuction.API.Entities;
-using RocketseatAuction.API.Repositories;
 using RocketseatAuction.API.Services;
 
 namespace RocketseatAuction.API.UseCases.Offers.CreateOffer;

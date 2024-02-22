@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using RocketseatAuction.API.Controllers;
 using RocketseatAuction.API.Entities;
-using RocketseatAuction.API.UseCases.Actions.GetCurrent;
+using RocketseatAuction.API.UseCases.Auctions.GetCurrent;
 
 public class AuctionController : RocketseatAuctionBaseController {
 	[HttpGet]

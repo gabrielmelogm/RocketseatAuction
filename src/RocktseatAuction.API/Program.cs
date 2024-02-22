@@ -5,7 +5,7 @@ using RocketseatAuction.API.Filters;
 using RocketseatAuction.API.Repositories;
 using RocketseatAuction.API.Repositories.DataAccess;
 using RocketseatAuction.API.Services;
-using RocketseatAuction.API.UseCases.Actions.GetCurrent;
+using RocketseatAuction.API.UseCases.Auctions.GetCurrent;
 using RocketseatAuction.API.UseCases.Offers.CreateOffer;
 
 var builder = WebApplication.CreateBuilder(args);

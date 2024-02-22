@@ -1,0 +1,47 @@
+# Arquivos de compilação gerados
+bin/
+obj/
+
+# Arquivos de dependência (exceto as referências geradas pelo .NET)
+# Se você estiver usando NuGet, exclua o diretório packages
+# Se estiver usando o .NET Core, exclua a pasta /bin e /obj, e não o diretório /bin e /obj
+# Por exemplo, para .NET Core use: */bin/* */obj/*
+!**/*.dll
+!**/*.pdb
+
+# Arquivos gerados pelo Visual Studio
+*.user
+*.vscode
+*.vs
+*.suo
+*.sln.docstates
+
+# Cache de análise do Visual Studio
+/.vscode/
+
+# Arquivos de log e crash
+*.log
+*.swp
+error.log
+
+# Arquivos de configuração e chave
+*.config
+*.key
+
+# Cache de ferramentas
+/.toolstarget/
+
+# Diretório de publicação
+publish/
+Publish/
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de backup
+*~
+*.bak
+
+# Arquivos específicos do sistema operacional
+Thumbs.db
+.DS_Store
